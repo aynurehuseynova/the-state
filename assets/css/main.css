@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  background-color: transparent;
+}
+header nav a p {
+  margin-left: 20px;
+  font-size: 25px;
+  color: white;
+}
+header nav a img {
+  padding-top: 20px;
+  padding-left: 15px;
+  margin-left: 20px;
+  max-width: 500px;
+}
+header nav .allnavdiv {
+  justify-content: center;
+  display: flex;
+  padding-right: 20px;
+}
+header nav .allnavdiv ul {
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  font-family: sans-serif;
+  gap: 30px;
+}
+header nav .allnavdiv ul li a {
+  color: white;
+}
+header nav .allnavdiv ul li a:hover {
+  color: #FD784F;
+}
+header nav .phonenumber {
+  background-color: #FD784F;
+  min-height: 40px;
+  max-width: 300px;
+}
+header nav .phonenumber span {
+  margin-right: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+#find-your-home {
+  background-image: url(https://preview.colorlib.com/theme/theestate/images/home_slider_bcg.jpg);
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#find-your-home .find-your-home {
+  text-align: center;
+}
+#find-your-home .find-your-home h1 {
+  font-size: 90px;
+  font-family: sans-serif;
+  color: white;
+  font-weight: 700;
+  line-height: 650px;
+}
+
+#featured-properties {
+  min-height: 300px;
+  margin-top: 20px;
+  padding-top: 20px;
+  background-image: url();
+}
+#featured-properties .featured-properties {
+  text-align: center;
+  min-height: 170px;
+}
+#featured-properties .featured-properties .divline {
+  margin: auto;
+  min-height: 20px;
+  max-width: 3px;
+  background-color: #FD784F;
+}
+#featured-properties .house {
+  position: relative;
+  color: #EDEFF4;
+}
+#featured-properties .house .divoring {
+  position: absolute;
+  background-color: #FD784F;
+  max-width: 130px;
+  min-height: 35px;
+  text-align: center;
+  color: white;
+  top: 30px;
+}
+#featured-properties .house .houseImg {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+#featured-properties .house .houseCalifornia {
+  text-align: center;
+  padding-top: 20px;
+  min-height: 400px;
+}
+#featured-properties .house .houseCalifornia h4 {
+  color: #1E2C4E;
+}
+#featured-properties .house .houseCalifornia .imgdiv {
+  color: #1E2C4E;
+  gap: 15px;
+}
+#featured-properties .house .houseCalifornia .paraqraf {
+  max-width: 330px;
+  margin: auto;
+  min-height: 60px;
+  color: darkseagreen;
+}
+#featured-properties .house .for-Sale {
+  background-color: #1E2C4E;
+  width: 95%;
+}
+#featured-properties .house .for-Sale .sale {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+#featured-properties .house .for-Sale .sale img {
+  max-width: 30px;
+}
+#featured-properties .house .for-Sale .salep {
+  color: white;
+  font-family: sans-serif;
+}
+#featured-properties .house .for-Sale .salep .psale {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 13px;
+}
+#featured-properties .house .for-Sale .salep .price {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#cLIENTS-TESTIMONIALS {
+  width: 100%;
+  min-height: 400px;
+  background-image: url("https://preview.colorlib.com/theme/theestate/images/testimonials_background.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+#cLIENTS-TESTIMONIALS .alldiv {
+  text-align: center;
+  width: 100%;
+  min-height: 500px;
+}
+#cLIENTS-TESTIMONIALS .alldiv .allparaqraf h2 {
+  color: white;
+}
+#cLIENTS-TESTIMONIALS .alldiv .allparaqraf p {
+  color: #d2d3d7;
+  font-size: 19px;
+}
+#cLIENTS-TESTIMONIALS .alldiv .allparaqraf {
+  min-height: 180px;
+}
+#cLIENTS-TESTIMONIALS .alldiv .allparaqraf .paraqraf {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#cLIENTS-TESTIMONIALS .alldiv .allparaqraf .paraqraf .paraqrafdiv {
+  height: 40px;
+  width: 4px;
+  background-color: orangered;
+}
+#cLIENTS-TESTIMONIALS .alldiv .minparaqraf {
+  min-height: 120px;
+}
+#cLIENTS-TESTIMONIALS .alldiv .minparaqraf p {
+  font-size: 18px;
+  line-height: 34px;
+  color: white;
+}
+#cLIENTS-TESTIMONIALS .alldiv .imgparaqraf img {
+  border-radius: 50%;
+}
+#cLIENTS-TESTIMONIALS .alldiv .imgparaqraf h6 {
+  color: orangered;
+}
+#cLIENTS-TESTIMONIALS .alldiv .imgparaqraf p {
+  color: white;
+}
+
+#CITIES-CLIENTS-PREFER {
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://preview.colorlib.com/theme/theestate/images/world.png);
+}
+#CITIES-CLIENTS-PREFER .CLIENTS-PREFER {
+  text-align: center;
+}
+#CITIES-CLIENTS-PREFER .CLIENTS-PREFER .divline {
+  margin: auto;
+  height: 37px;
+  width: 4px;
+  background-color: orangered;
+}
+#CITIES-CLIENTS-PREFER .CLIENTS-PREFER h5 {
+  font-size: 24px;
+  font-family: sans-serif;
+}
+#CITIES-CLIENTS-PREFER .CLIENTS-PREFER p {
+  font-size: 15px;
+  font-family: sans-serif;
+  min-height: 100px;
+}
+#CITIES-CLIENTS-PREFER .imgCITIES img {
+  margin-top: 20px;
+  max-width: 150px;
+  min-height: 120px;
+}
+
+footer .textdivcolorlib {
+  position: relative;
+  background-color: #222222;
+  height: 100px;
+  padding-top: 20px;
+}
+footer .textdivcolorlib p {
+  color: white;
+  text-align: center;
+}

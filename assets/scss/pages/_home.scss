@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background-color: transparent;
+
+    nav {
+
+        a {
+            p {
+                margin-left: 20px;
+                font-size: 25px;
+                color: white;
+            }
+
+            img {
+                padding-top: 20px;
+                padding-left: 15px;
+                margin-left: 20px;
+                max-width: 500px;
+
+
+            }
+        }
+
+        .allnavdiv {
+            justify-content: center;
+            display: flex;
+            padding-right: 20px;
+
+            ul {
+                margin-right: 20px;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 21px;
+                font-family: sans-serif;
+                gap: 30px;
+
+                li {
+                    a {
+                        color: white;
+
+                        &:hover {
+                            color: #FD784F;
+                        }
+                    }
+                }
+            }
+        }
+
+        .phonenumber {
+            background-color: #FD784F;
+            min-height: 40px;
+            max-width: 300px;
+
+            span {
+                margin-right: 20px;
+                padding-right: 20px;
+                font-size: 20px;
+                color: white;
+            }
+        }
+    }
+}
+
+
+// section 1
+#find-your-home {
+    background-image: url(https://preview.colorlib.com/theme/theestate/images/home_slider_bcg.jpg);
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .find-your-home {
+        text-align: center;
+
+        h1 {
+            font-size: 90px;
+            font-family: sans-serif;
+            color: white;
+            font-weight: 700;
+            line-height: 650px;
+        }
+    }
+}
+
+// section 2
+
+#featured-properties {
+    min-height: 300px;
+    margin-top: 20px;
+    padding-top: 20px;
+
+    .featured-properties {
+        text-align: center;
+        min-height: 170px;
+
+        .divline {
+            margin: auto;
+            min-height: 20px;
+            max-width: 3px;
+            background-color: #FD784F;
+        }
+    }
+
+    .house {
+        position: relative;
+        color: #EDEFF4;
+
+        .divoring {
+            position: absolute;
+            background-color: #FD784F;
+            max-width: 130px;
+            min-height: 35px;
+            text-align: center;
+            color: white;
+            top: 30px;
+        }
+
+        // img {
+        //     max-width: 390px;
+        //     height: auto;
+        //     padding-bottom: 20px;
+
+        // }
+        .houseImg {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+
+        .houseCalifornia {
+            text-align: center;
+            padding-top: 20px;
+            min-height: 400px;
+
+            h4 {
+                color: #1E2C4E;
+            }
+
+            .imgdiv {
+                color: #1E2C4E;
+                gap: 15px;
+            }
+
+            .paraqraf {
+                max-width: 330px;
+                margin: auto;
+                min-height: 60px;
+                color: darkseagreen;
+            }
+        }
+
+        .for-Sale {
+            background-color: #1E2C4E;
+            width: 95%;
+
+            .sale {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-top: 20px;
+
+                img {
+                    max-width: 30px;
+                }
+            }
+
+            .salep {
+                color: white;
+                font-family: sans-serif;
+
+                .psale {
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin-bottom: 0;
+                    margin-top: 13px;
+                }
+
+                .price {
+                    font-size: 25px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
+    background-image: url();
+}
+
+// section 3
+
+#cLIENTS-TESTIMONIALS {
+    width: 100%;
+    min-height: 400px;
+    background-image: url('https://preview.colorlib.com/theme/theestate/images/testimonials_background.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+margin-top: 20px;
+    .alldiv {
+        text-align: center;
+        width: 100%;
+        min-height: 500px;
+
+        .allparaqraf {
+            h2 {
+                color: white;
+            }
+
+            p {
+                color: #d2d3d7;
+                font-size: 19px;
+            }
+        }
+
+        .allparaqraf {
+            min-height: 180px;
+
+            .paraqraf {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                // min-height: 100px;
+                .paraqrafdiv {
+                    height: 40px;
+                    width: 4px;
+                    background-color: orangered;
+                }
+            }
+        }
+
+        .minparaqraf {
+            min-height: 120px;
+
+            p {
+                font-size: 18px;
+                line-height: 34px;
+                color: white;
+            }
+        }
+
+        .imgparaqraf {
+            img {
+                border-radius: 50%;
+            }
+
+            h6 {
+                color: orangered;
+            }
+
+            p {
+                color: white;
+            }
+        }
+
+
+
+    }
+}
+
+// section 4
+#CITIES-CLIENTS-PREFER {
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://preview.colorlib.com/theme/theestate/images/world.png);
+.CLIENTS-PREFER{
+    text-align: center;
+    .divline {
+       margin: auto;
+        height: 37px;
+        width: 4px;
+        background-color: orangered;
+    }   
+h5{
+    font-size:24px;
+    font-family: sans-serif;
+}
+p{
+  font-size: 15px;  
+  font-family: sans-serif;
+min-height: 100px;
+}
+}
+ .imgCITIES{
+   img{
+   margin-top: 20px;
+    max-width: 150px;
+    min-height: 120px;
+
+   }
+ }
+}
+footer{
+ .textdivcolorlib{
+    position: relative;
+    background-color:#222222;
+    height: 100px;
+padding-top: 20px;
+p{
+    color: white;
+    text-align: center;
+}
+ }
+}
